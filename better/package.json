@@ -1,0 +1,20 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "Building up pieces of react from scratch",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel --plugins @babel/plugin-transform-react-jsx ./components/*.jsx -d dist && index.html",
+    "build": "babel --plugins @babel/plugin-transform-react-jsx ./components/*.jsx -d dist"
+  },
+  "author": "Kieran Wood",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/plugin-transform-react-jsx": "^7.23.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
